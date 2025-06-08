@@ -34,7 +34,7 @@ Xếp lịch nhân viên cho các ca làm việc trong tuần với các ràng b
 ## Cấu trúc dự án
 
 ```
-Employee_scheduling (1).ipynb    # File chính chứa tất cả thuật toán
+Employee_scheduling.ipynb    # File chính chứa tất cả thuật toán
 nhanvien_schedule.xlsx          # Dữ liệu mẫu nhân viên
 ```
 
@@ -121,6 +121,9 @@ total_time = run_schedule(df, NEED=(3,4,2), return_score=False)
 # Ví dụ cho Greedy
 total_score = run_schedule_greedy(df, NEED=(3,4,2), return_score=True)
 ```
+
+### 5. Kết quả thực nghiệm
+- Tất cả kết quả thực nghiệm nằm trong thư mục "thực nghiệm"
 
 ## Lưu ý quan trọng
 
